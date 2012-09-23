@@ -637,4 +637,13 @@ abstract public class GraphView extends LinearLayout {
 		viewportStart = start;
 		viewportSize = size;
 	}
+	
+	/**
+	 * sets size of label text
+	 */
+	
+	public void setTextSize(int size) {
+		paint.setTextSize(size);
+	}
+
 }
